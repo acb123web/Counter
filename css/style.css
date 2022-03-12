@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    font-family: "Booster Next FY", sans-serif;
+    line-height: 1.42;
+    padding:0;
+    margin:0;
+    background: #ecf0f3;
+    height:90vh;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color:#9c1bff;
+}
+.counter-section{
+    border-radius:1rem;
+    padding:60px 35px 35px 35px;
+    border-radius: 10px;
+    background: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+    -13px -13px 20px #ffffff;
+}
+.counter-section h4{
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.count{
+    width:50px;
+    height:50px;
+    font-size:18px;
+    padding:1rem 1rem;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    font-weight: 500;
+    color:#fff;
+    text-align: center;
+    background: #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    border-radius: .2rem;
+    display:inline-block;
+    font-weight:bold;
+}
+.one{
+    width:50px;
+    height:50px;
+    font-size:18px;
+    padding:1rem 1rem;
+    color:#fff;
+    background: #FF6363;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    border-radius: .2rem;
+}
+.btns{
+    display:block;
+    margin-top:2rem;
+    font-size:18px;
+    padding:1rem 3rem;
+    color:#fff !important;
+    background: #9c1bff;
+    box-shadow: 3px 3px 8px #b1b1b1,
+    -3px -3px 8px #ffffff;
+    border-radius: .2rem;
+    margin: 0 auto;
+    text-decoration: none !important;
+    width:fit-content;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
